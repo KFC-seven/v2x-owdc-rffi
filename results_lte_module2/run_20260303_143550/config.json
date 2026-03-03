@@ -1,0 +1,37 @@
+{
+  "RAW_DIR": "E:/rf_datasets_IQ_raw",
+  "EQ_DIR": "E:/rf_datasets_IQ_eq",
+  "RUN_DIR": "./results_lte_module2\\run_20260303_143550",
+  "SOURCE_RX": [
+    1,
+    2
+  ],
+  "SOURCE_SPEED": 10,
+  "KNOWN_TX": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "UNKNOWN_TX": [
+    7,
+    8,
+    9
+  ],
+  "BATCH_SIZE": 128,
+  "NUM_EPOCHS": 60,
+  "LR": 0.0001,
+  "WEIGHT_DECAY": 0.001,
+  "PATIENCE": 8,
+  "IN_PLANES": 64,
+  "DROPOUT": 0.3,
+  "OCC_RANGE": [
+    30,
+    101
+  ],
+  "D_DIM_HALF": 16,
+  "MAX_SAMPLES_PER_FILE_TRAIN": 0,
+  "MAX_SAMPLES_PER_FILE_EVAL": 0
+}
