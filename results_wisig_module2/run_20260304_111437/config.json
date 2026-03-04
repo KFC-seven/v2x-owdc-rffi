@@ -1,0 +1,23 @@
+{
+  "dataset_name": "ManySig",
+  "TRAIN_DATES": [
+    "2021_03_15"
+  ],
+  "TEST_DATES_RX": [
+    "2021_03_15"
+  ],
+  "TEST_DATES_DAY": [
+    "2021_03_01"
+  ],
+  "KNOWN_TX_NUM": 4,
+  "MAX_SIG_PER_TRIPLE": null,
+  "Z_FROM_EQ": 1,
+  "D_FROM": "raw",
+  "BATCH_SIZE": 128,
+  "EPOCHS": 60,
+  "LR": 0.0001,
+  "WEIGHT_DECAY": 0.001,
+  "PATIENCE": 8,
+  "BLOCK_SIZE": 200,
+  "D_DIM": 32
+}
