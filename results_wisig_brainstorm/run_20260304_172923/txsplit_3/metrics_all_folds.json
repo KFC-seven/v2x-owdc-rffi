@@ -1,0 +1,157 @@
+[
+  {
+    "split": 3,
+    "fold": 1,
+    "acc": 0.9975,
+    "auc_unknown": {
+      "cosine_proto": 0.8994328125,
+      "MSP": 0.8979338194444444,
+      "Energy": 0.8678030555555555,
+      "NegEntropy": 0.8972979861111111,
+      "Margin": 0.8988578125000001,
+      "EmbMaha": 0.9818934722222222
+    },
+    "auc_drRX": {
+      "V1_minDist": 0.9328219328703704,
+      "V1_softminDist": 0.9328219039351853,
+      "V1_mixNLL": 0.9338597395833333,
+      "V1_weightedMixNLL": 0.9268185995370369,
+      "V0_deviceDist": 0.7752167939814816,
+      "V2_rxPooledMinDist": 0.7444397453703704,
+      "VZ_pca_minDist": 0.8924590046296297
+    },
+    "auc_drDAY": {
+      "V1_minDist": 0.83877234375,
+      "V1_softminDist": 0.8387723958333333,
+      "V1_mixNLL": 0.8398741666666666,
+      "V1_weightedMixNLL": 0.812706892361111,
+      "V0_deviceDist": 0.6094265972222223,
+      "V2_rxPooledMinDist": 0.44673041666666663,
+      "VZ_pca_minDist": 0.7393981423611111
+    }
+  },
+  {
+    "split": 3,
+    "fold": 2,
+    "acc": 0.9966666666666667,
+    "auc_unknown": {
+      "cosine_proto": 0.9632153472222221,
+      "MSP": 0.8710894791666667,
+      "Energy": 0.8588595138888889,
+      "NegEntropy": 0.8713292361111111,
+      "Margin": 0.8711327777777778,
+      "EmbMaha": 0.9931770138888888
+    },
+    "auc_drRX": {
+      "V1_minDist": 0.9364486921296296,
+      "V1_softminDist": 0.9364485937499999,
+      "V1_mixNLL": 0.937499207175926,
+      "V1_weightedMixNLL": 0.9235242824074072,
+      "V0_deviceDist": 0.796139207175926,
+      "V2_rxPooledMinDist": 0.7494294502314816,
+      "VZ_pca_minDist": 0.8758678877314815
+    },
+    "auc_drDAY": {
+      "V1_minDist": 0.8095034722222223,
+      "V1_softminDist": 0.8095031597222222,
+      "V1_mixNLL": 0.8111253819444444,
+      "V1_weightedMixNLL": 0.80005,
+      "V0_deviceDist": 0.5519301041666667,
+      "V2_rxPooledMinDist": 0.45185102430555557,
+      "VZ_pca_minDist": 0.757115798611111
+    }
+  },
+  {
+    "split": 3,
+    "fold": 3,
+    "acc": 0.9916666666666667,
+    "auc_unknown": {
+      "cosine_proto": 0.9344801388888889,
+      "MSP": 0.8355892708333333,
+      "Energy": 0.7708875694444444,
+      "NegEntropy": 0.8354254166666666,
+      "Margin": 0.8357908333333334,
+      "EmbMaha": 0.9904377083333333
+    },
+    "auc_drRX": {
+      "V1_minDist": 0.9248071932870372,
+      "V1_softminDist": 0.9248072222222222,
+      "V1_mixNLL": 0.9259530844907408,
+      "V1_weightedMixNLL": 0.8994237094907407,
+      "V0_deviceDist": 0.7766619907407408,
+      "V2_rxPooledMinDist": 0.7486139756944444,
+      "VZ_pca_minDist": 0.8487449710648148
+    },
+    "auc_drDAY": {
+      "V1_minDist": 0.8330660416666666,
+      "V1_softminDist": 0.8330656597222222,
+      "V1_mixNLL": 0.8341552777777776,
+      "V1_weightedMixNLL": 0.7732417534722222,
+      "V0_deviceDist": 0.63059265625,
+      "V2_rxPooledMinDist": 0.46011890625,
+      "VZ_pca_minDist": 0.7099994444444445
+    }
+  },
+  {
+    "split": 3,
+    "fold": 4,
+    "acc": 0.9954166666666666,
+    "auc_unknown": {
+      "cosine_proto": 0.9619997916666666,
+      "MSP": 0.9294029166666666,
+      "Energy": 0.899869236111111,
+      "NegEntropy": 0.9296465277777778,
+      "Margin": 0.9293749999999998,
+      "EmbMaha": 0.995514375
+    },
+    "auc_drRX": {
+      "V1_minDist": 0.9242969849537037,
+      "V1_softminDist": 0.9242969849537037,
+      "V1_mixNLL": 0.9257364467592593,
+      "V1_weightedMixNLL": 0.9210699421296297,
+      "V0_deviceDist": 0.7678835127314815,
+      "V2_rxPooledMinDist": 0.7576500636574074,
+      "VZ_pca_minDist": 0.893270625
+    },
+    "auc_drDAY": {
+      "V1_minDist": 0.8270207638888889,
+      "V1_softminDist": 0.8270205208333333,
+      "V1_mixNLL": 0.8286361805555555,
+      "V1_weightedMixNLL": 0.7923780208333334,
+      "V0_deviceDist": 0.6110816666666667,
+      "V2_rxPooledMinDist": 0.45812276041666666,
+      "VZ_pca_minDist": 0.7543748263888889
+    }
+  },
+  {
+    "split": 3,
+    "fold": 5,
+    "acc": 0.9983333333333333,
+    "auc_unknown": {
+      "cosine_proto": 0.9662904513888888,
+      "MSP": 0.9249488888888888,
+      "Energy": 0.8846846527777777,
+      "NegEntropy": 0.9235804166666666,
+      "Margin": 0.9270040625000001,
+      "EmbMaha": 0.9917282638888889
+    },
+    "auc_drRX": {
+      "V1_minDist": 0.9308942013888888,
+      "V1_softminDist": 0.9308942766203705,
+      "V1_mixNLL": 0.9319805266203703,
+      "V1_weightedMixNLL": 0.9172146006944444,
+      "V0_deviceDist": 0.7956483738425926,
+      "V2_rxPooledMinDist": 0.7500341898148148,
+      "VZ_pca_minDist": 0.8929246701388889
+    },
+    "auc_drDAY": {
+      "V1_minDist": 0.8167542881944444,
+      "V1_softminDist": 0.8167537673611112,
+      "V1_mixNLL": 0.8184359548611111,
+      "V1_weightedMixNLL": 0.7864636631944445,
+      "V0_deviceDist": 0.6035483506944445,
+      "V2_rxPooledMinDist": 0.45273281249999997,
+      "VZ_pca_minDist": 0.7632168055555556
+    }
+  }
+]

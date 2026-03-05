@@ -1,0 +1,467 @@
+[
+  {
+    "split": 1,
+    "fold": 1,
+    "acc": 0.9995833333333334,
+    "auc_unknown": {
+      "cosine_proto": 0.588150625,
+      "MSP": 0.7777122916666667,
+      "Energy": 0.8181976041666666,
+      "NegEntropy": 0.7782035763888889,
+      "Margin": 0.7770245833333335,
+      "EmbMaha": 0.7689697222222223
+    },
+    "auc_drRX": {
+      "V1_minDist": 0.9398820949074076,
+      "V1_softminDist": 0.9398818518518519,
+      "V1_mixNLL": 0.9409209722222223,
+      "V1_weightedMixNLL": 0.9100413483796297,
+      "V0_deviceDist": 0.7247219444444444,
+      "V2_rxPooledMinDist": 0.7037090162037037,
+      "VZ_pca_minDist": 0.9064562847222222
+    },
+    "auc_drDAY": {
+      "V1_minDist": 0.8640929861111111,
+      "V1_softminDist": 0.8640927777777776,
+      "V1_mixNLL": 0.8662820138888889,
+      "V1_weightedMixNLL": 0.8145662847222221,
+      "V0_deviceDist": 0.6381767534722222,
+      "V2_rxPooledMinDist": 0.5594578125,
+      "VZ_pca_minDist": 0.796090607638889
+    }
+  },
+  {
+    "split": 1,
+    "fold": 2,
+    "acc": 0.9983333333333333,
+    "auc_unknown": {
+      "cosine_proto": 0.7483567361111111,
+      "MSP": 0.7917512152777778,
+      "Energy": 0.7603032986111111,
+      "NegEntropy": 0.7916661111111112,
+      "Margin": 0.7918847569444444,
+      "EmbMaha": 0.8664857638888889
+    },
+    "auc_drRX": {
+      "V1_minDist": 0.9489513657407407,
+      "V1_softminDist": 0.9489513368055554,
+      "V1_mixNLL": 0.9499303472222222,
+      "V1_weightedMixNLL": 0.912858460648148,
+      "V0_deviceDist": 0.7569982754629629,
+      "V2_rxPooledMinDist": 0.7032256365740741,
+      "VZ_pca_minDist": 0.925779537037037
+    },
+    "auc_drDAY": {
+      "V1_minDist": 0.8594600173611111,
+      "V1_softminDist": 0.8594598784722223,
+      "V1_mixNLL": 0.8618181076388889,
+      "V1_weightedMixNLL": 0.8161652083333334,
+      "V0_deviceDist": 0.6423508854166666,
+      "V2_rxPooledMinDist": 0.5566870486111111,
+      "VZ_pca_minDist": 0.801392829861111
+    }
+  },
+  {
+    "split": 1,
+    "fold": 3,
+    "acc": 0.9966666666666667,
+    "auc_unknown": {
+      "cosine_proto": 0.6983036805555556,
+      "MSP": 0.7806257638888888,
+      "Energy": 0.7791939930555554,
+      "NegEntropy": 0.7808963888888889,
+      "Margin": 0.7803930902777778,
+      "EmbMaha": 0.8145443402777778
+    },
+    "auc_drRX": {
+      "V1_minDist": 0.9626592708333334,
+      "V1_softminDist": 0.9626591898148149,
+      "V1_mixNLL": 0.9631685300925927,
+      "V1_weightedMixNLL": 0.9062403414351851,
+      "V0_deviceDist": 0.7816691608796297,
+      "V2_rxPooledMinDist": 0.6974992997685185,
+      "VZ_pca_minDist": 0.9089014409722223
+    },
+    "auc_drDAY": {
+      "V1_minDist": 0.8774630555555556,
+      "V1_softminDist": 0.8774630902777778,
+      "V1_mixNLL": 0.8794274652777778,
+      "V1_weightedMixNLL": 0.8206174826388889,
+      "V0_deviceDist": 0.6515384722222223,
+      "V2_rxPooledMinDist": 0.5579154513888889,
+      "VZ_pca_minDist": 0.8327793750000001
+    }
+  },
+  {
+    "split": 1,
+    "fold": 4,
+    "acc": 0.9983333333333333,
+    "auc_unknown": {
+      "cosine_proto": 0.8100469444444445,
+      "MSP": 0.8578261458333334,
+      "Energy": 0.8898804166666666,
+      "NegEntropy": 0.8593859027777777,
+      "Margin": 0.8590265972222222,
+      "EmbMaha": 0.8586859027777778
+    },
+    "auc_drRX": {
+      "V1_minDist": 0.942387974537037,
+      "V1_softminDist": 0.9423877951388889,
+      "V1_mixNLL": 0.9434189062499999,
+      "V1_weightedMixNLL": 0.9188934201388888,
+      "V0_deviceDist": 0.7299944444444444,
+      "V2_rxPooledMinDist": 0.7010472974537036,
+      "VZ_pca_minDist": 0.9101299826388889
+    },
+    "auc_drDAY": {
+      "V1_minDist": 0.8331038368055557,
+      "V1_softminDist": 0.8331036631944445,
+      "V1_mixNLL": 0.836246111111111,
+      "V1_weightedMixNLL": 0.8241642361111111,
+      "V0_deviceDist": 0.5944405208333333,
+      "V2_rxPooledMinDist": 0.5511373090277778,
+      "VZ_pca_minDist": 0.8192230555555555
+    }
+  },
+  {
+    "split": 1,
+    "fold": 5,
+    "acc": 0.995,
+    "auc_unknown": {
+      "cosine_proto": 0.540531076388889,
+      "MSP": 0.7120383680555555,
+      "Energy": 0.7091920486111111,
+      "NegEntropy": 0.7125509722222222,
+      "Margin": 0.7103025694444444,
+      "EmbMaha": 0.7370450347222222
+    },
+    "auc_drRX": {
+      "V1_minDist": 0.9474385706018518,
+      "V1_softminDist": 0.9474385243055555,
+      "V1_mixNLL": 0.9483987615740741,
+      "V1_weightedMixNLL": 0.9122418287037036,
+      "V0_deviceDist": 0.7473206655092592,
+      "V2_rxPooledMinDist": 0.7055596122685186,
+      "VZ_pca_minDist": 0.904521087962963
+    },
+    "auc_drDAY": {
+      "V1_minDist": 0.8694935069444445,
+      "V1_softminDist": 0.8694935069444444,
+      "V1_mixNLL": 0.8717895138888888,
+      "V1_weightedMixNLL": 0.8169739930555557,
+      "V0_deviceDist": 0.6445154861111111,
+      "V2_rxPooledMinDist": 0.5612047395833333,
+      "VZ_pca_minDist": 0.7878186805555556
+    }
+  },
+  {
+    "split": 2,
+    "fold": 1,
+    "acc": 0.9966666666666667,
+    "auc_unknown": {
+      "cosine_proto": 0.8699319791666666,
+      "MSP": 0.7289453125,
+      "Energy": 0.7683316666666666,
+      "NegEntropy": 0.7281458333333334,
+      "Margin": 0.7319244444444444,
+      "EmbMaha": 0.9954228472222222
+    },
+    "auc_drRX": {
+      "V1_minDist": 0.9194829976851853,
+      "V1_softminDist": 0.9194830092592593,
+      "V1_mixNLL": 0.920629681712963,
+      "V1_weightedMixNLL": 0.8807480844907406,
+      "V0_deviceDist": 0.7773335011574074,
+      "V2_rxPooledMinDist": 0.7660439178240741,
+      "VZ_pca_minDist": 0.8199853472222223
+    },
+    "auc_drDAY": {
+      "V1_minDist": 0.8294172916666667,
+      "V1_softminDist": 0.8294171527777778,
+      "V1_mixNLL": 0.8315923958333333,
+      "V1_weightedMixNLL": 0.7846422916666667,
+      "V0_deviceDist": 0.6153124999999999,
+      "V2_rxPooledMinDist": 0.5936554340277778,
+      "VZ_pca_minDist": 0.6740468229166666
+    }
+  },
+  {
+    "split": 2,
+    "fold": 2,
+    "acc": 0.9979166666666667,
+    "auc_unknown": {
+      "cosine_proto": 0.7916437500000001,
+      "MSP": 0.7205319097222221,
+      "Energy": 0.7189808680555555,
+      "NegEntropy": 0.7217409027777778,
+      "Margin": 0.7145435416666668,
+      "EmbMaha": 0.997478888888889
+    },
+    "auc_drRX": {
+      "V1_minDist": 0.9234896412037037,
+      "V1_softminDist": 0.9234896412037036,
+      "V1_mixNLL": 0.9245257523148147,
+      "V1_weightedMixNLL": 0.888420295138889,
+      "V0_deviceDist": 0.8019553877314816,
+      "V2_rxPooledMinDist": 0.7571147511574075,
+      "VZ_pca_minDist": 0.8386803009259259
+    },
+    "auc_drDAY": {
+      "V1_minDist": 0.8408164930555556,
+      "V1_softminDist": 0.8408157638888889,
+      "V1_mixNLL": 0.84253421875,
+      "V1_weightedMixNLL": 0.7880171527777778,
+      "V0_deviceDist": 0.6406985416666666,
+      "V2_rxPooledMinDist": 0.5967291493055555,
+      "VZ_pca_minDist": 0.693144375
+    }
+  },
+  {
+    "split": 2,
+    "fold": 3,
+    "acc": 0.99875,
+    "auc_unknown": {
+      "cosine_proto": 0.9212612847222221,
+      "MSP": 0.868306875,
+      "Energy": 0.9050064583333333,
+      "NegEntropy": 0.8693088194444445,
+      "Margin": 0.8677453125000001,
+      "EmbMaha": 0.9981696527777778
+    },
+    "auc_drRX": {
+      "V1_minDist": 0.911216435185185,
+      "V1_softminDist": 0.9112165451388888,
+      "V1_mixNLL": 0.9124656770833334,
+      "V1_weightedMixNLL": 0.8847951388888889,
+      "V0_deviceDist": 0.7861536226851852,
+      "V2_rxPooledMinDist": 0.7683967592592592,
+      "VZ_pca_minDist": 0.8402811631944445
+    },
+    "auc_drDAY": {
+      "V1_minDist": 0.8042946875000001,
+      "V1_softminDist": 0.8042943229166667,
+      "V1_mixNLL": 0.8071765277777778,
+      "V1_weightedMixNLL": 0.7891685069444444,
+      "V0_deviceDist": 0.5665897048611112,
+      "V2_rxPooledMinDist": 0.6006138888888889,
+      "VZ_pca_minDist": 0.7113587847222222
+    }
+  },
+  {
+    "split": 2,
+    "fold": 4,
+    "acc": 0.9991666666666666,
+    "auc_unknown": {
+      "cosine_proto": 0.8897935069444445,
+      "MSP": 0.9084853125,
+      "Energy": 0.8637290625,
+      "NegEntropy": 0.9093254861111111,
+      "Margin": 0.9048038541666665,
+      "EmbMaha": 0.9980786111111111
+    },
+    "auc_drRX": {
+      "V1_minDist": 0.9184405844907406,
+      "V1_softminDist": 0.9184401909722223,
+      "V1_mixNLL": 0.919898298611111,
+      "V1_weightedMixNLL": 0.8891435821759259,
+      "V0_deviceDist": 0.7531837615740741,
+      "V2_rxPooledMinDist": 0.7660585474537036,
+      "VZ_pca_minDist": 0.8226001388888888
+    },
+    "auc_drDAY": {
+      "V1_minDist": 0.8170591666666667,
+      "V1_softminDist": 0.817058298611111,
+      "V1_mixNLL": 0.8198850347222222,
+      "V1_weightedMixNLL": 0.8012627951388889,
+      "V0_deviceDist": 0.5701319097222222,
+      "V2_rxPooledMinDist": 0.609889236111111,
+      "VZ_pca_minDist": 0.6353548437500001
+    }
+  },
+  {
+    "split": 2,
+    "fold": 5,
+    "acc": 0.9958333333333333,
+    "auc_unknown": {
+      "cosine_proto": 0.8825443749999999,
+      "MSP": 0.8507714583333335,
+      "Energy": 0.9072502777777778,
+      "NegEntropy": 0.854588263888889,
+      "Margin": 0.8447756944444444,
+      "EmbMaha": 0.9965368055555557
+    },
+    "auc_drRX": {
+      "V1_minDist": 0.9219261168981482,
+      "V1_softminDist": 0.9219260590277778,
+      "V1_mixNLL": 0.9231405266203704,
+      "V1_weightedMixNLL": 0.8788316261574074,
+      "V0_deviceDist": 0.7905345949074075,
+      "V2_rxPooledMinDist": 0.7651928877314815,
+      "VZ_pca_minDist": 0.8212389351851852
+    },
+    "auc_drDAY": {
+      "V1_minDist": 0.8110074826388889,
+      "V1_softminDist": 0.8110073090277778,
+      "V1_mixNLL": 0.8137781770833333,
+      "V1_weightedMixNLL": 0.7861997569444445,
+      "V0_deviceDist": 0.6087786284722221,
+      "V2_rxPooledMinDist": 0.5888912847222223,
+      "VZ_pca_minDist": 0.6949171875
+    }
+  },
+  {
+    "split": 3,
+    "fold": 1,
+    "acc": 0.9975,
+    "auc_unknown": {
+      "cosine_proto": 0.8994328125,
+      "MSP": 0.8979338194444444,
+      "Energy": 0.8678030555555555,
+      "NegEntropy": 0.8972979861111111,
+      "Margin": 0.8988578125000001,
+      "EmbMaha": 0.9818934722222222
+    },
+    "auc_drRX": {
+      "V1_minDist": 0.9328219328703704,
+      "V1_softminDist": 0.9328219039351853,
+      "V1_mixNLL": 0.9338597395833333,
+      "V1_weightedMixNLL": 0.9268185995370369,
+      "V0_deviceDist": 0.7752167939814816,
+      "V2_rxPooledMinDist": 0.7444397453703704,
+      "VZ_pca_minDist": 0.8924590046296297
+    },
+    "auc_drDAY": {
+      "V1_minDist": 0.83877234375,
+      "V1_softminDist": 0.8387723958333333,
+      "V1_mixNLL": 0.8398741666666666,
+      "V1_weightedMixNLL": 0.812706892361111,
+      "V0_deviceDist": 0.6094265972222223,
+      "V2_rxPooledMinDist": 0.44673041666666663,
+      "VZ_pca_minDist": 0.7393981423611111
+    }
+  },
+  {
+    "split": 3,
+    "fold": 2,
+    "acc": 0.9966666666666667,
+    "auc_unknown": {
+      "cosine_proto": 0.9632153472222221,
+      "MSP": 0.8710894791666667,
+      "Energy": 0.8588595138888889,
+      "NegEntropy": 0.8713292361111111,
+      "Margin": 0.8711327777777778,
+      "EmbMaha": 0.9931770138888888
+    },
+    "auc_drRX": {
+      "V1_minDist": 0.9364486921296296,
+      "V1_softminDist": 0.9364485937499999,
+      "V1_mixNLL": 0.937499207175926,
+      "V1_weightedMixNLL": 0.9235242824074072,
+      "V0_deviceDist": 0.796139207175926,
+      "V2_rxPooledMinDist": 0.7494294502314816,
+      "VZ_pca_minDist": 0.8758678877314815
+    },
+    "auc_drDAY": {
+      "V1_minDist": 0.8095034722222223,
+      "V1_softminDist": 0.8095031597222222,
+      "V1_mixNLL": 0.8111253819444444,
+      "V1_weightedMixNLL": 0.80005,
+      "V0_deviceDist": 0.5519301041666667,
+      "V2_rxPooledMinDist": 0.45185102430555557,
+      "VZ_pca_minDist": 0.757115798611111
+    }
+  },
+  {
+    "split": 3,
+    "fold": 3,
+    "acc": 0.9916666666666667,
+    "auc_unknown": {
+      "cosine_proto": 0.9344801388888889,
+      "MSP": 0.8355892708333333,
+      "Energy": 0.7708875694444444,
+      "NegEntropy": 0.8354254166666666,
+      "Margin": 0.8357908333333334,
+      "EmbMaha": 0.9904377083333333
+    },
+    "auc_drRX": {
+      "V1_minDist": 0.9248071932870372,
+      "V1_softminDist": 0.9248072222222222,
+      "V1_mixNLL": 0.9259530844907408,
+      "V1_weightedMixNLL": 0.8994237094907407,
+      "V0_deviceDist": 0.7766619907407408,
+      "V2_rxPooledMinDist": 0.7486139756944444,
+      "VZ_pca_minDist": 0.8487449710648148
+    },
+    "auc_drDAY": {
+      "V1_minDist": 0.8330660416666666,
+      "V1_softminDist": 0.8330656597222222,
+      "V1_mixNLL": 0.8341552777777776,
+      "V1_weightedMixNLL": 0.7732417534722222,
+      "V0_deviceDist": 0.63059265625,
+      "V2_rxPooledMinDist": 0.46011890625,
+      "VZ_pca_minDist": 0.7099994444444445
+    }
+  },
+  {
+    "split": 3,
+    "fold": 4,
+    "acc": 0.9954166666666666,
+    "auc_unknown": {
+      "cosine_proto": 0.9619997916666666,
+      "MSP": 0.9294029166666666,
+      "Energy": 0.899869236111111,
+      "NegEntropy": 0.9296465277777778,
+      "Margin": 0.9293749999999998,
+      "EmbMaha": 0.995514375
+    },
+    "auc_drRX": {
+      "V1_minDist": 0.9242969849537037,
+      "V1_softminDist": 0.9242969849537037,
+      "V1_mixNLL": 0.9257364467592593,
+      "V1_weightedMixNLL": 0.9210699421296297,
+      "V0_deviceDist": 0.7678835127314815,
+      "V2_rxPooledMinDist": 0.7576500636574074,
+      "VZ_pca_minDist": 0.893270625
+    },
+    "auc_drDAY": {
+      "V1_minDist": 0.8270207638888889,
+      "V1_softminDist": 0.8270205208333333,
+      "V1_mixNLL": 0.8286361805555555,
+      "V1_weightedMixNLL": 0.7923780208333334,
+      "V0_deviceDist": 0.6110816666666667,
+      "V2_rxPooledMinDist": 0.45812276041666666,
+      "VZ_pca_minDist": 0.7543748263888889
+    }
+  },
+  {
+    "split": 3,
+    "fold": 5,
+    "acc": 0.9983333333333333,
+    "auc_unknown": {
+      "cosine_proto": 0.9662904513888888,
+      "MSP": 0.9249488888888888,
+      "Energy": 0.8846846527777777,
+      "NegEntropy": 0.9235804166666666,
+      "Margin": 0.9270040625000001,
+      "EmbMaha": 0.9917282638888889
+    },
+    "auc_drRX": {
+      "V1_minDist": 0.9308942013888888,
+      "V1_softminDist": 0.9308942766203705,
+      "V1_mixNLL": 0.9319805266203703,
+      "V1_weightedMixNLL": 0.9172146006944444,
+      "V0_deviceDist": 0.7956483738425926,
+      "V2_rxPooledMinDist": 0.7500341898148148,
+      "VZ_pca_minDist": 0.8929246701388889
+    },
+    "auc_drDAY": {
+      "V1_minDist": 0.8167542881944444,
+      "V1_softminDist": 0.8167537673611112,
+      "V1_mixNLL": 0.8184359548611111,
+      "V1_weightedMixNLL": 0.7864636631944445,
+      "V0_deviceDist": 0.6035483506944445,
+      "V2_rxPooledMinDist": 0.45273281249999997,
+      "VZ_pca_minDist": 0.7632168055555556
+    }
+  }
+]

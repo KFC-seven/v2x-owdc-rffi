@@ -1,0 +1,31 @@
+{
+  "split": 3,
+  "fold": 2,
+  "acc": 0.9966666666666667,
+  "auc_unknown": {
+    "cosine_proto": 0.9632153472222221,
+    "MSP": 0.8710894791666667,
+    "Energy": 0.8588595138888889,
+    "NegEntropy": 0.8713292361111111,
+    "Margin": 0.8711327777777778,
+    "EmbMaha": 0.9931770138888888
+  },
+  "auc_drRX": {
+    "V1_minDist": 0.9364486921296296,
+    "V1_softminDist": 0.9364485937499999,
+    "V1_mixNLL": 0.937499207175926,
+    "V1_weightedMixNLL": 0.9235242824074072,
+    "V0_deviceDist": 0.796139207175926,
+    "V2_rxPooledMinDist": 0.7494294502314816,
+    "VZ_pca_minDist": 0.8758678877314815
+  },
+  "auc_drDAY": {
+    "V1_minDist": 0.8095034722222223,
+    "V1_softminDist": 0.8095031597222222,
+    "V1_mixNLL": 0.8111253819444444,
+    "V1_weightedMixNLL": 0.80005,
+    "V0_deviceDist": 0.5519301041666667,
+    "V2_rxPooledMinDist": 0.45185102430555557,
+    "VZ_pca_minDist": 0.757115798611111
+  }
+}
