@@ -1,0 +1,90 @@
+{
+  "split": 1,
+  "fold": 3,
+  "acc": 0.9991666666666666,
+  "auc_unknown": 0.7508457638888889,
+  "auc_drift_rx": 0.951244525462963,
+  "auc_drift_day": 0.8417851388888888,
+  "tau_id_single": -1024.6998474121094,
+  "tau_dom_single": 2604.999487304686,
+  "tau_id_low": -2565.529353027344,
+  "tau_id_high": -757.7815673828125,
+  "tau_dom_dual": 2604.999487304686,
+  "single": {
+    "FRR_stable": 0.09583333333333333,
+    "false_drift_stable": 0.04583333333333333,
+    "FAR_unknown_accept": 0.13153333333333334,
+    "miss_drift": 0.1625
+  },
+  "dual_conservative": {
+    "FRR_stable": 0.1429166666666667,
+    "false_drift_stable": 0.04666666666666667,
+    "FAR_unknown_accept": 0.10233333333333333,
+    "miss_drift": 0.13379166666666667
+  },
+  "dual_balanced": {
+    "FRR_stable": 0.05666666666666664,
+    "false_drift_stable": 0.04666666666666667,
+    "FAR_unknown_accept": 0.15233333333333332,
+    "miss_drift": 0.24004166666666665
+  },
+  "confusion_matrix_single": [
+    [
+      2170,
+      110,
+      120
+    ],
+    [
+      7800,
+      7705,
+      32495
+    ],
+    [
+      3946,
+      16745,
+      9309
+    ]
+  ],
+  "confusion_matrix_dual_conservative": [
+    [
+      2057,
+      112,
+      231
+    ],
+    [
+      6422,
+      11001,
+      30577
+    ],
+    [
+      3070,
+      19877,
+      7053
+    ]
+  ],
+  "confusion_matrix_dual_balanced": [
+    [
+      2264,
+      112,
+      24
+    ],
+    [
+      11522,
+      11001,
+      25477
+    ],
+    [
+      4570,
+      19877,
+      5553
+    ]
+  ],
+  "semantic_region_counts": {
+    "0": 11549,
+    "1": 17866,
+    "2": 5060,
+    "3": 25994,
+    "4": 6807,
+    "5": 13124
+  }
+}
