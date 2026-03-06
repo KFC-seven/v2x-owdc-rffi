@@ -1,0 +1,60 @@
+{
+  "split": 3,
+  "fold": 4,
+  "tau_id": -1.299363774061203,
+  "tau_dom": 1834.0051635742168,
+  "gate_precision": 0.6363636363636364,
+  "gate_recall": 0.14875,
+  "gate_keep_ratio": 0.0935,
+  "adapt_stream_size": 10000,
+  "gated_size": 935,
+  "oracle_size": 4000,
+  "NoAdapt": {
+    "stable_acc": 0.9975,
+    "drift_acc_rx": 0.601,
+    "drift_acc_day": 0.8093333333333333,
+    "drift_acc_all": 0.7051666666666667,
+    "FRR_stable": 0.09333333333333338,
+    "FAR_unknown_accept": 0.00011111111111111112,
+    "miss_drift_rx": 0.203,
+    "miss_drift_day": 0.4836666666666667,
+    "miss_drift_all": 0.3433333333333333,
+    "auc_unknown_eval": 0.9789487962962964
+  },
+  "UngatedAdapt": {
+    "stable_acc": 0.9979166666666667,
+    "drift_acc_rx": 0.604,
+    "drift_acc_day": 0.8096666666666666,
+    "drift_acc_all": 0.7068333333333333,
+    "FRR_stable": 0.08999999999999997,
+    "FAR_unknown_accept": 0.00011111111111111112,
+    "miss_drift_rx": 0.20066666666666666,
+    "miss_drift_day": 0.491,
+    "miss_drift_all": 0.3458333333333333,
+    "auc_unknown_eval": 0.9769674074074074
+  },
+  "GatedAdapt": {
+    "stable_acc": 0.9979166666666667,
+    "drift_acc_rx": 0.6016666666666667,
+    "drift_acc_day": 0.8116666666666666,
+    "drift_acc_all": 0.7066666666666667,
+    "FRR_stable": 0.09458333333333335,
+    "FAR_unknown_accept": 0.00011111111111111112,
+    "miss_drift_rx": 0.202,
+    "miss_drift_day": 0.48333333333333334,
+    "miss_drift_all": 0.3426666666666667,
+    "auc_unknown_eval": 0.9791426851851851
+  },
+  "OracleGateAdapt": {
+    "stable_acc": 0.9975,
+    "drift_acc_rx": 0.602,
+    "drift_acc_day": 0.8086666666666666,
+    "drift_acc_all": 0.7053333333333334,
+    "FRR_stable": 0.0954166666666667,
+    "FAR_unknown_accept": 0.00011111111111111112,
+    "miss_drift_rx": 0.204,
+    "miss_drift_day": 0.484,
+    "miss_drift_all": 0.344,
+    "auc_unknown_eval": 0.9781980555555555
+  }
+}
