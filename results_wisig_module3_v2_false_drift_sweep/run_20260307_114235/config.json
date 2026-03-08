@@ -1,0 +1,52 @@
+{
+  "SEED": 42,
+  "TX_TOTAL_USE": 6,
+  "RX_TOTAL_USE": 12,
+  "DAY_TOTAL_USE": 4,
+  "KNOWN_TX_NUM": 4,
+  "SOURCE_RX_NUM": 3,
+  "TX_SPLIT_REPEATS": 5,
+  "TRAIN_DATES": [
+    "2021_03_15"
+  ],
+  "TEST_DATES_RX": [
+    "2021_03_15"
+  ],
+  "TEST_DATES_DAY": [
+    "2021_03_01"
+  ],
+  "Z_FROM_EQ": 1,
+  "D_FROM": "raw",
+  "MAX_SIG_PER_TRIPLE": null,
+  "BATCH_SIZE": 128,
+  "EPOCHS": 60,
+  "LR": 0.0001,
+  "WEIGHT_DECAY": 0.001,
+  "PATIENCE": 8,
+  "IN_PLANES": 64,
+  "DROPOUT": 0.3,
+  "D_DIM": 32,
+  "FUSION_LAM": 0.5,
+  "FRR_TARGET": 0.05,
+  "FALSE_DRIFT_TARGET_LIST": [
+    0.01,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "ADAPT_FRAC": 0.5,
+  "MAX_ADAPT_PER_SET": 2000,
+  "MAX_EVAL_PER_SET": 3000,
+  "CONF_STABLE_Q": 0.1,
+  "CONF_MIN_KEEP": 64,
+  "USE_CONF_WEIGHT": true,
+  "ADAPTER_BOTTLENECK": 64,
+  "ADAPTER_SCALE": 0.3,
+  "ADAPT_EPOCHS": 20,
+  "ADAPT_LR": 0.001,
+  "ADAPT_WEIGHT_DECAY": 0.0001,
+  "ADAPT_BATCH": 128,
+  "REPLAY_PER_CLASS": 200,
+  "LAMBDA_REPLAY_CE": 1.0,
+  "LAMBDA_REPLAY_ANCHOR": 1.0
+}
