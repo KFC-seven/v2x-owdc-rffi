@@ -1,0 +1,80 @@
+[TIGHT-SMOKE] notebook: wisig_SODA_RFF_ablation_fixed_FAR_memfix_shka_tight.ipynb
+[TIGHT-SMOKE] cuda: NVIDIA GeForce RTX 4080
+
+[TIGHT-SMOKE] EXEC cell=1
+Device: cuda
+RUN_DIR: ../owdc_results/results_SODA_RFF/run_wisig_SODA_RFF_ablation_fixed_FAR_memfix_shka_tight__pcA__20260423_003733
+GENERIC_FINAL_REJECTOR_HEADS: ['energy', 'energy_proto', 'energy_state', 'energy_class', 'module2', 'msp', 'entropy', 'margin', 'proto']
+BASELINE_NATIVE_REJECTOR_FAMILY: {'PCPD_recon': 'pcpd', 'OVANet_recon': 'ovanet', 'COMET_recon': 'comet', 'JRFFP_SC_recon': 'jrffp_sc'}
+#base methods / #eval methods: 13 121
+
+[TIGHT-SMOKE] EXEC cell=2
+Patched METHOD_ORDER = ['SODA-RFF', 'SourceOnly', 'PCPD_recon', 'OVANet_recon', 'COMET_recon', 'JRFFP_SC_recon']
+Patched RUN_DIR = ../owdc_results/results_SODA_RFF/run_wisig_SODA_RFF_ablation_fixed_FAR_memfix_shka_tight__pcA__20260423_003733
+RX9-3_TX4-2 -> u9342_fixedwin | RJ = energy
+RX9-3_TX2-4 -> u93_24_pv004 | RJ = energy_class
+RX6-6_TX3-3 -> u6633_fixedwin | RJ = energy
+RX3-9_TX2-4 -> u39_24_pv008 | RJ = proto
+
+[TIGHT-SMOKE] EXEC cell=3
+TX_USE: ['14-10', '14-7', '20-15', '20-19', '6-15', '8-20']
+RX_USE: ['1-1', '1-19', '14-7', '18-2', '19-2', '2-1', '2-19', '20-1', '3-19', '7-14', '7-7', '8-8']
+DATE_USE: ['2021_03_01', '2021_03_08', '2021_03_15', '2021_03_23']
+
+================== Selected protocol combinations ==================
+Selected protocol combinations: 4
+[RX9-3_TX4-2] SOURCE_RXS=[np.str_('14-7'), np.str_('18-2'), np.str_('2-1'), np.str_('2-19'), np.str_('20-1'), np.str_('3-19'), np.str_('7-14'), np.str_('7-7'), np.str_('8-8')] | DRIFT_RX=['1-1', '1-19', '19-2']
+  TX protocol=4-2 -> unique TX splits=3
+  TX_SPLIT_1: KNOWN=['14-7', '20-15', '20-19', '8-20'] | UNKNOWN=['14-10', '6-15']
+  TX_SPLIT_2: KNOWN=['14-10', '20-15', '20-19', '8-20'] | UNKNOWN=['14-7', '6-15']
+  TX_SPLIT_3: KNOWN=['14-10', '20-15', '20-19', '6-15'] | UNKNOWN=['14-7', '8-20']
+[RX9-3_TX2-4] SOURCE_RXS=[np.str_('1-1'), np.str_('1-19'), np.str_('14-7'), np.str_('18-2'), np.str_('2-1'), np.str_('3-19'), np.str_('7-14'), np.str_('7-7'), np.str_('8-8')] | DRIFT_RX=['19-2', '2-19', '20-1']
+  TX protocol=2-4 -> unique TX splits=3
+  TX_SPLIT_1: KNOWN=['14-10', '14-7'] | UNKNOWN=['20-15', '20-19', '6-15', '8-20']
+  TX_SPLIT_2: KNOWN=['20-15', '8-20'] | UNKNOWN=['14-10', '14-7', '20-19', '6-15']
+  TX_SPLIT_3: KNOWN=['14-10', '8-20'] | UNKNOWN=['14-7', '20-15', '20-19', '6-15']
+[RX6-6_TX3-3] SOURCE_RXS=[np.str_('18-2'), np.str_('2-19'), np.str_('20-1'), np.str_('3-19'), np.str_('7-14'), np.str_('7-7')] | DRIFT_RX=['1-1', '1-19', '14-7', '19-2', '2-1', '8-8']
+  TX protocol=3-3 -> unique TX splits=3
+  TX_SPLIT_1: KNOWN=['14-10', '14-7', '6-15'] | UNKNOWN=['20-15', '20-19', '8-20']
+  TX_SPLIT_2: KNOWN=['14-10', '6-15', '8-20'] | UNKNOWN=['14-7', '20-15', '20-19']
+  TX_SPLIT_3: KNOWN=['14-7', '20-19', '6-15'] | UNKNOWN=['14-10', '20-15', '8-20']
+[RX3-9_TX2-4] SOURCE_RXS=[np.str_('1-19'), np.str_('14-7'), np.str_('7-14')] | DRIFT_RX=['1-1', '18-2', '19-2', '2-1', '2-19', '20-1', '3-19', '7-7', '8-8']
+  TX protocol=2-4 -> unique TX splits=3
+  TX_SPLIT_1: KNOWN=['6-15', '8-20'] | UNKNOWN=['14-10', '14-7', '20-15', '20-19']
+  TX_SPLIT_2: KNOWN=['14-7', '8-20'] | UNKNOWN=['14-10', '20-15', '20-19', '6-15']
+  TX_SPLIT_3: KNOWN=['20-15', '8-20'] | UNKNOWN=['14-10', '14-7', '20-19', '6-15']
+
+[TIGHT-SMOKE] EXEC cell=4
+
+[TIGHT-SMOKE] EXEC cell=5
+
+[TIGHT-SMOKE] EXEC cell=6
+
+[TIGHT-SMOKE] EXEC cell=7
+
+[TIGHT-SMOKE] EXEC cell=8
+
+[TIGHT-SMOKE] EXEC cell=9
+
+[TIGHT-SMOKE] EXEC cell=10
+
+[TIGHT-SMOKE] EXEC cell=11
+
+[TIGHT-SMOKE] EXEC cell=12
+
+[TIGHT-SMOKE] EXEC cell=13
+
+[TIGHT-SMOKE] EXEC cell=14
+
+[TIGHT-SMOKE] EXEC cell=15
+[TIGHT-SMOKE-OVERRIDE] protocol=RX6-6_TX3-3 split=1 fold=1 far=[0.10] epochs=1 active=all variants
+[SODA-CONFIG] protocol=RX6-6_TX3-3 | source=selected_snapshot_json
+[SODA-CONFIG] loaded selected snapshot for RX6-6_TX3-3
+[SODA-CONFIG] selected_profile_tag=u66_33_safe_bal_p02_16 | selected_rejector_head=energy | json_path=./resolved_selected_variants.json
+[SODA-CONFIG] snapshot/runtime keys = {'gamma_notunk': 1.06, 'lambda_unkE': 0.038, 'lambda_stab': 0.01, 'v19_lambda_align': 0.0585, 'v19_lambda_ent_min': 0.01425, 'v19_lambda_ent_max': 0.0392, 'v19_lambda_proto': 0.1932, 'v19_unknown_energy_margin': 0.0848, 'v36_proxy_cap': 0.02, 'v36_proxy_q': 0.88, 'v36_proxy_pu_min': 0.45, 'v36_proxy_conf_max': 0.72, 'v36_proxy_conf_smooth': 0.08, 'v36_proxy_entropy_mix': 0.35, 'v36_lambda_ent_max_scale': 1.0, 'v36_proxy_min_keep': 0}
+[SODA-CONFIG] applied globals = {'V22_GAMMA_NOTUNK': 1.06, 'V22_LAMBDA_UNKE': 0.038, 'V22_LAMBDA_STAB': 0.01, 'V22_UNKNOWN_ENERGY_MARGIN': 0.0848}
+[SODA-CONFIG] applied_runtime_path = ../owdc_results/results_SODA_RFF/run_wisig_SODA_RFF_ablation_fixed_FAR_memfix_shka_tight__pcA__20260423_003733\applied_runtime_configs\applied_runtime_config_RX6-6_TX3-3.json
+[RX6-6_TX3-3|split1|fold1] stageA=cache_saved | cache=sA_soda_rff.pkl | seconds=4.8
+
+Executed unified ablation smoke suite.
+Saved ablation artifacts to: ../owdc_results/results_SODA_RFF/run_wisig_SODA_RFF_ablation_fixed_FAR_memfix_shka_tight__pcA__20260423_003733\ablation_repr2_shka_tight_smoke
